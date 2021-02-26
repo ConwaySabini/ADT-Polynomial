@@ -1,0 +1,50 @@
+ADT Polynomial Driver
+
+p1: degree: 8
+Expected: 8
+
+p2: degree: 9
+Expected: 9
+
+p4: degree: 14
+Expected: 14
+
+p2: coefficient of 9: 35
+Expected: 35
+
+p2: coefficient of 0: 3
+Expected: 3
+
+p2: coefficient of 4: 1.5
+Expected: 1.5
+
+p5 == p4: 1
+Expected: True
+
+p5 != p4: 0
+Expected: False
+
+p6 == p2: 1
+Expected: True
+
+p6 != p5: 0
+Expected: False
+
+p1: 14x^8-6.7x^5-2.5x^4 + 1.24x^2 + 0.5x + 3
+Expected: 14x^8-6.7x^5-2.5x^4 + 1.24x^2 + 0.5*x ^ 1 + 3
+
+p2: 35x^9 + 14x^8 + 5x^7 + 1.3x^5 + 1.5x^4 + 1.24x^2-0.7x + 3
+Expected: 35x^9 + 14x^8 + 5x^7 + 1.3x^5 + 1.5x^4+ 1.24 * x^2 + -0.7 * x^1 + 3
+
+p3: 35x^9 + 5x^7 + 8x^5 + 4x^4-1.2x
+Expected: 35x^9 + 5x^7 + 8x^5 + 4x^4 + -1.2x
+
+p4: -6.25x^14 + 80x^9-14x^8 + 5x^7 + 14.7x^5 + 206.5x^4 + 74x^3 + 5.46x^2-1.7x-3
+Expected: -6.25x^14 + 80x^9-14x^8 + 5x^7 + 14.7*x ^ 5 + 206.5x^4 + 74x^3 + 5.46x^2-1.7x^1-3
+
+p5: -6.25x^14 + 45x^9-14x^8 + 6.7x^5 + 202.5x^4 + 74x^3 + 5.46x^2-0.5x-3
+Expected: -6.25x^14 + 45x^9-14x^8 + 6.7x^5 + 202.5x^4 + 74x^3 + 5.46x^2-0.5x-3
+
+p1: 
+Expected: 
+
